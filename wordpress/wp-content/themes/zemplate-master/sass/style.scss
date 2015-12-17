@@ -17,11 +17,24 @@ Tags: zemplate, naked, clean, basic, fondation, semantic
 	::Debris
 \*------------------------------------*/
 
+
 /*------------------------------------*\
     ::Framework Customizations
 \*------------------------------------*/
-$row-width: 1140px;                     //sets the width of the rows for foundation (must be above all).
+$row-width: 100%;                       //sets the width of the rows for foundation (must be above all).
 $include-html-classes: false;           //eliminates foundation basic styling from founcations _global.scss
+$medium-size-constraint : 800px;
+$minimum-header-image-height : 400px;
+
+.page-torso__content{
+    text-align: center;
+}
+
+/*------------------------------------*\
+    ::Compass Import
+\*------------------------------------*/
+//@import "compass";
+//@import "compass/reset";
 
 /*------------------------------------*\
     ::Stars
@@ -32,8 +45,8 @@ $include-html-classes: false;           //eliminates foundation basic styling fr
     don't get output: they're just
     tools to use elsewhere.
 \*------------------------------------*/
-@import "stars/foundation/scss/foundation/components/grid";
-@import "stars/zemplate/*";
+@import "stars/foundation/scss/foundation";
+@import "stars/zemplate/*.*";
 
 /*------------------------------------*\
     ::Plannets

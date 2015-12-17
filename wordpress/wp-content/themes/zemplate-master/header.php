@@ -11,12 +11,12 @@
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
-    <title><?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
+    <title>crwgregory</title>
 
     <?php //<meta name="viewport" content="width=device-width, initial-scale=1.0" /> ?>
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
     <link rel="profile" href="http://gmpg.org/xfn/11" />
-    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />    
 
     <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -27,19 +27,20 @@
 </head>
 
 <body <?php body_class('page-'.$post->post_name); ?>>
-<div class="wrap-all-the-things">
-    <header class="main-head">
-        <div class="main-head__inner">
-            <div class="main-head__nav">
-                <?php
-                    $attr = array(
-                        'theme_location'  => 'head-menu',
-                        'container'       => 'nav',
-                        'container_class' => 'head-nav',
-                        'menu_class'      => 'menu'
-                    );
-                    wp_nav_menu($attr);
-                ?>
+<div class="page-content">
+    <div class="column row">
+        <header class="main-head" id="">
+            <div id="header-container">
+                <img id="header-image" src="wp-content/uploads/2015/12/twinlakesshade.jpg"/>   
+                <div class="overlay-container">
+                    <div class="logo-container">
+                        <img id="header-logo" src="http://crwgregory.com/wp-content/uploads/2015/12/hexegon2.png"/>
+                    </div>
+                    <div class="header-overlay" id="header-text-overlay">
+                        <h1>CLEAN</h1>
+                        <h2>SIMPLE</h2>
+                        <h3>SITES</h3>
+                    </div>    
+                </div>
             </div>
-        </div> <!-- //__inner -->
-    </header> <!-- //main-head -->
+        </header> <!-- //main-head -->

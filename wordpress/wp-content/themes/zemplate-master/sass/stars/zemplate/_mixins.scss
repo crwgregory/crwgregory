@@ -102,9 +102,9 @@
 \*------------------------------------*/
 
 //Just @include col(x);
-@mixin col($columns, $last-column:false, $center:false, $offset:false, $push:false, $pull:false, $collapse:false, $float:left) {
-    @include grid-column($columns, $last-column, $center, $offset, $push, $pull, $collapse, $float);
-}
+// @mixin col($columns, $last-column:false, $center:false, $offset:false, $push:false, $pull:false, $collapse:false, $float:left) {
+//     @include grid-column($columns, $last-column, $center, $offset, $push, $pull, $collapse, $float);
+// }
 
 /*------------------------------------*\
     ::Sticky Footer

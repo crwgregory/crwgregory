@@ -9,3 +9,5 @@
  * Use this file to set up any theme-specific functions you'd like to use
  * in the current theme.
  */
+
+show_admin_bar(false);

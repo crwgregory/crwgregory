@@ -1,0 +1,22 @@
+.overlay-container{
+	height: 110%;
+	margin:0 20%;
+}
+
+.text-overlay{
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+}
+
+#footer-overlay{
+	height:75px;
+	width: 100vw;
+	display: table-cell;
+	vertical-align: middle;
+	background-color:black;
+	p{
+		margin:0;
+		color:white;
+	}
+}
