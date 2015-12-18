@@ -9,28 +9,12 @@
  * @since Zemplate 1.0
  */
 ?>
-
         <footer class="main-foot">
             <div class="row expanded" id="footer-overlay">
                 <div class="small-12 small-centered columns">
                     <p class="text-center email">crwgregory@gmail.com</p>
                 </div>
-            </div>
-        
-            <!-- <div class="main-foot__nav">
-                <div class="nav__inner text-overlay">
-                    <?php
-                        $attr = array(
-                            'theme_location'  => 'foot-menu',
-                            'container'       => 'nav',
-                            'container_class' => 'foot-nav',
-                            'menu_class'      => 'menu'
-                        );
-                        wp_nav_menu($attr);
-                    ?>
-                </div>
-            </div> -->
-            
+            </div>            
         </footer><!-- // main-foot -->
     <!-- sticky footer will fail if anything goes between the closing footer and .wrap -->
     </div>

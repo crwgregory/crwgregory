@@ -31,22 +31,25 @@
         <div class="column row">
             <header class="main-head">
                 <div id="header-container">
-                    <!-- <img id="header-image" src="wp-content/uploads/2015/12/twinlakesshade.jpg"/>    -->
                     <div class="row expanded">
-                        <div class="small-6 small-centered columns" id="main-logo-container">
-                            
-                            <div id="main-logo"></div>
-                            <!-- <div class="overlay-container">
-                                <div class="logo-container">
-                                    <img id="header-logo" src="http://crwgregory.com/wp-content/uploads/2015/12/hexegon2.png"/>
-                                </div>
-                                <div class="header-overlay" id="header-text-overlay">
-                                    <h1>CLEAN</h1>
-                                    <h2>SIMPLE</h2>
-                                    <h3>SITES</h3>
-                                </div>    
-                            </div>    -->                     
-                        </div>
+                        <div class="small-6 small-centered columns" id="main-logo-container">                            
+                            <div id="main-logo"></div>                 
+                        </div>                        
                     </div>
+                    <div class="row expanded">
+                            <div class="small-6 small-centered columns">
+                                <h1 class="text-center header-text">CLEAN</h1>
+                            </div>
+                        </div>
+                        <div class="row expanded">
+                            <div class="small-6 small-centered columns">
+                                <h2 class="text-center header-text">SIMPLE</h2>
+                            </div>
+                        </div>
+                        <div class="row expanded">
+                            <div class="small-6 small-centered columns">
+                                <h3 class="text-center header-text">SITES</h3>
+                            </div>
+                        </div>
                 </div>
             </header> <!-- //main-head -->

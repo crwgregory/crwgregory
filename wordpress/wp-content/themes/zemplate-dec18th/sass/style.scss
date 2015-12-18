@@ -39,8 +39,7 @@ Tags: zemplate, naked, clean, basic, fondation, semantic
     tools to use elsewhere.
 \*------------------------------------*/
 @import "stars/foundation/scss/foundation";
-//@include foundation-custom;
-@include foundation-everything;
+@include foundation-custom;
 @import "stars/zemplate/*.*";
 
 /*------------------------------------*\

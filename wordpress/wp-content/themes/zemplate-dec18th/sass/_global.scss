@@ -12,7 +12,8 @@ $minimum-header-image-height : 400px;
 $footer-height: 10vh;
 $min-footer-height: 36px;
 
-$min-container-height: 400px;
+$min-container-height-small: 400px;
+$min-container-height-large: 475px;
 
 body{
 	width: 100vw;
@@ -20,5 +21,5 @@ body{
 }
 .page-content{
 	overflow-y:hidden;
-	min-height: $min-container-height;
+	min-height: $min-container-height-small;	
 }

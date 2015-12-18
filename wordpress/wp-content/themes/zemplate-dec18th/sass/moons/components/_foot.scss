@@ -2,7 +2,6 @@
     ::Footer
 \*------------------------------------*/
 footer{
-	// width: 100vw;
 	background-color:black;
 	#footer-overlay{		
 		height: $footer-height;
@@ -13,12 +12,10 @@ footer{
 		}
 	}
 	.columns{
-		overflow-y:hidden;
-		
+		overflow-y:hidden;		
 		.email{						
 			color:white;
 			padding-top:$footer-height / 4;
-		}
-		
+		}		
 	}
 }
