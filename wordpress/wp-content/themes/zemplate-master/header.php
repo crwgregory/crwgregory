@@ -27,20 +27,26 @@
 </head>
 
 <body <?php body_class('page-'.$post->post_name); ?>>
-<div class="page-content">
-    <div class="column row">
-        <header class="main-head" id="">
-            <div id="header-container">
-                <img id="header-image" src="wp-content/uploads/2015/12/twinlakesshade.jpg"/>   
-                <div class="overlay-container">
-                    <div class="logo-container">
-                        <img id="header-logo" src="http://crwgregory.com/wp-content/uploads/2015/12/hexegon2.png"/>
+    <div class="page-content row expanded">
+        <div class="column row">
+            <header class="main-head">
+                <div id="header-container">
+                    <!-- <img id="header-image" src="wp-content/uploads/2015/12/twinlakesshade.jpg"/>    -->
+                    <div class="row expanded">
+                        <div class="small-6 small-centered columns" id="main-logo-container">
+                            
+                            <div id="main-logo"></div>
+                            <!-- <div class="overlay-container">
+                                <div class="logo-container">
+                                    <img id="header-logo" src="http://crwgregory.com/wp-content/uploads/2015/12/hexegon2.png"/>
+                                </div>
+                                <div class="header-overlay" id="header-text-overlay">
+                                    <h1>CLEAN</h1>
+                                    <h2>SIMPLE</h2>
+                                    <h3>SITES</h3>
+                                </div>    
+                            </div>    -->                     
+                        </div>
                     </div>
-                    <div class="header-overlay" id="header-text-overlay">
-                        <h1>CLEAN</h1>
-                        <h2>SIMPLE</h2>
-                        <h3>SITES</h3>
-                    </div>    
                 </div>
-            </div>
-        </header> <!-- //main-head -->
+            </header> <!-- //main-head -->

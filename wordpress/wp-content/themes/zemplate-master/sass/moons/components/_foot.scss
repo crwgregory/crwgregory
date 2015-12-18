@@ -1,8 +1,24 @@
 /*------------------------------------*\
     ::Footer
 \*------------------------------------*/
-// @include sticky-footer(
-//     $wrap: '.wrap-all-the-things',
-//     $row:  '.main-foot',
-//     $flex: '.main-torso'
-// );
+footer{
+	// width: 100vw;
+	background-color:black;
+	#footer-overlay{		
+		height: $footer-height;
+		min-height: $min-footer-height;
+		.columns{
+			height: inherit;	
+			min-height: inherit;
+		}
+	}
+	.columns{
+		overflow-y:hidden;
+		
+		.email{						
+			color:white;
+			padding-top:$footer-height / 4;
+		}
+		
+	}
+}

@@ -21,14 +21,7 @@ Tags: zemplate, naked, clean, basic, fondation, semantic
 /*------------------------------------*\
     ::Framework Customizations
 \*------------------------------------*/
-$row-width: 100%;                       //sets the width of the rows for foundation (must be above all).
-$include-html-classes: false;           //eliminates foundation basic styling from founcations _global.scss
-$medium-size-constraint : 800px;
-$minimum-header-image-height : 400px;
-
-.page-torso__content{
-    text-align: center;
-}
+@import "global";
 
 /*------------------------------------*\
     ::Compass Import
@@ -46,6 +39,8 @@ $minimum-header-image-height : 400px;
     tools to use elsewhere.
 \*------------------------------------*/
 @import "stars/foundation/scss/foundation";
+//@include foundation-custom;
+@include foundation-everything;
 @import "stars/zemplate/*.*";
 
 /*------------------------------------*\

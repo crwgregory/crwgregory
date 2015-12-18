@@ -11,9 +11,10 @@
 ?>
 
         <footer class="main-foot">
-
-            <div class="text-overlay" id="footer-overlay">
-                <p>crwgregory@gmail.com</p>
+            <div class="row expanded" id="footer-overlay">
+                <div class="small-12 small-centered columns">
+                    <p class="text-center email">crwgregory@gmail.com</p>
+                </div>
             </div>
         
             <!-- <div class="main-foot__nav">

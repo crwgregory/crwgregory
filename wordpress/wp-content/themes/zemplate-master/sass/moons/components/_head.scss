@@ -3,8 +3,29 @@
 \*------------------------------------*/
 $logo-size-break: 950px;
 
-#header-container{
+header{
+	
+}
 
+#header-container{
+	background: black url(/crwgregory/wordpress/wp-content/uploads/2015/12/twinlakesshade.jpg) no-repeat fixed content-box;
+	background-position: 50% 100%; //mid-bottom
+	background-size: 100vw auto;
+	height:100vh - $footer-height;
+	min-height:$min-container-height;
+
+	#main-logo-container{
+		min-width:230px;
+		#main-logo{
+			@extend #main-logo-container;
+			height:280px;
+			background:url(http://crwgregory.com/wp-content/uploads/2015/12/hexegon2.png) no-repeat;
+			background-position:50% 5%;
+		}
+	}
+	#test{
+		
+	}
 	.header-overlay{
 		text-align: center;
 		position: relative;

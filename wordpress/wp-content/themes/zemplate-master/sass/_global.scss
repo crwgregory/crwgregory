@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    ::Framework Customizations
+\*------------------------------------*/
+$row-width: 100%;                       //sets the width of the rows for foundation (must be above all).
+
+$include-html-classes: false;           //eliminates foundation basic styling from founcations _global.scss
+
+$medium-size-constraint : 800px;
+
+$minimum-header-image-height : 400px;
+
+$footer-height: 10vh;
+$min-footer-height: 36px;
+
+$min-container-height: 400px;
+
+body{
+	width: 100vw;
+	overflow-x:hidden;
+}
+.page-content{
+	overflow-y:hidden;
+	min-height: $min-container-height;
+}
