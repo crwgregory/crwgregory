@@ -454,7 +454,7 @@ th {
 /* line 121, sass/stars/foundation/scss/_global.scss */
 html,
 body {
-  font-size: 100%;
+  font-size: 24px;
   box-sizing: border-box; }
 
 /* line 128, sass/stars/foundation/scss/_global.scss */
@@ -1675,40 +1675,40 @@ h3 {
 
 /* line 309, sass/stars/foundation/scss/typography/_base.scss */
 h4 {
-  font-size: 1.125rem; }
+  font-size: 0.9375rem; }
 
 /* line 309, sass/stars/foundation/scss/typography/_base.scss */
 h5 {
-  font-size: 1.0625rem; }
+  font-size: 0.625rem; }
 
 /* line 309, sass/stars/foundation/scss/typography/_base.scss */
 h6 {
-  font-size: 1rem; }
+  font-size: 0.4375rem; }
 
 @media screen and (min-width: 40em) {
   /* line 309, sass/stars/foundation/scss/typography/_base.scss */
   h1 {
-    font-size: 3rem; }
+    font-size: 2.625rem; }
 
   /* line 309, sass/stars/foundation/scss/typography/_base.scss */
   h2 {
-    font-size: 2.5rem; }
+    font-size: 2.125rem; }
 
   /* line 309, sass/stars/foundation/scss/typography/_base.scss */
   h3 {
-    font-size: 1.9375rem; }
+    font-size: 1.6875rem; }
 
   /* line 309, sass/stars/foundation/scss/typography/_base.scss */
   h4 {
-    font-size: 1.5625rem; }
+    font-size: 1.1875rem; }
 
   /* line 309, sass/stars/foundation/scss/typography/_base.scss */
   h5 {
-    font-size: 1.25rem; }
+    font-size: 0.875rem; }
 
   /* line 309, sass/stars/foundation/scss/typography/_base.scss */
   h6 {
-    font-size: 1rem; } }
+    font-size: 0.625rem; } }
 /* line 315, sass/stars/foundation/scss/typography/_base.scss */
 a {
   color: #2199e8;
@@ -1820,7 +1820,7 @@ kbd {
 
 /* line 57, sass/stars/foundation/scss/typography/_helpers.scss */
 .lead {
-  font-size: 125%;
+  font-size: 30px;
   line-height: 1.6; }
 
 /* line 63, sass/stars/foundation/scss/typography/_helpers.scss */
@@ -2869,13 +2869,18 @@ footer {
       min-height: 475px; } }
   /* line 16, sass/moons/components/_head.scss */
   #header-container #main-logo-container {
-    min-width: 230px; }
-    /* line 18, sass/moons/components/_head.scss */
+    min-width: 250px; }
+    @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      /* line 16, sass/moons/components/_head.scss */
+      #header-container #main-logo-container {
+        margin-top: 100px; } }
+    /* line 21, sass/moons/components/_head.scss */
     #header-container #main-logo-container #main-logo {
       height: 280px;
-      background: url(http://crwgregory.com/wp-content/uploads/2015/12/hexegon2.png) no-repeat;
+      background-image: url(http://crwgregory.com/wp-content/uploads/2015/12/hexegon2.png);
+      background-repeat: no-repeat;
       background-position: center; }
-  /* line 25, sass/moons/components/_head.scss */
+  /* line 30, sass/moons/components/_head.scss */
   #header-container .header-text {
     color: white; }
 

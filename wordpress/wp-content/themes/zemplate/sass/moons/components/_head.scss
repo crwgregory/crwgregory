@@ -14,11 +14,16 @@ $logo-size-break: 950px;
 	}
 
 	#main-logo-container{
-		min-width:230px;
+		@media screen and #{breakpoint('retina')}{			
+			margin-top:100px;
+		}
+		min-width:250px;
 		#main-logo{
 			//@extend #main-logo-container;
 			height:280px;
-			background:url(http://crwgregory.com/wp-content/uploads/2015/12/hexegon2.png) no-repeat;
+			background-image:url(http://crwgregory.com/wp-content/uploads/2015/12/hexegon2.png);
+			background-repeat: no-repeat;
+			//background-size: auto 80%;
 			background-position:center;
 		}
 	}
