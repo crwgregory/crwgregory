@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    ::Footer
+\*------------------------------------*/
+footer{
+	background-color:black;
+	#footer-overlay{		
+		height: $footer-height;
+		min-height: $min-footer-height;
+		.columns{
+			height: inherit;	
+			min-height: inherit;
+		}
+	}
+	.columns{
+		overflow-y:hidden;		
+		.email{						
+			color:white;
+			padding-top:$footer-height / 4;
+		}		
+	}
+}

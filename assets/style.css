@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Cabin);
+
+h1, h2, h3{
+	font-family: 'Cabin', sans-serif;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+}
+
+.row{
+	max-width: 100%;
+}
+.column{
+	padding: 0;
+	width: 100%;
+}
+.menu{
+	text-align: center;
+}
+.menu li{
+	display: inline-block;
+}
+.page-torso__content{
+	text-align: center;
+}
+#page-title{
+	text-align: center;
+}
+#header-image-container{
+}
+#header-image{
+	z-index: 0;
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+#header-image-overlay{	
+	color: white;
+    padding-top: 7%;
+}
+
+.header-overlay{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	z-index: 20;
+}
+
+header .logo{
+	padding-top: 3%;
+	opacity: .8;
+	display: block;
+	position: absolute;
+	margin-left: -110px;
+	max-width: 220px;
+	height: auto;
+	z-index: 20;
+	position: relative;
+	left: 50%;
+}
+
+#header-email-info{
+	color: white;
+	padding-top: 3%;
+}
+
+.placeholder{
+	height: 1500px;
+	background-color: black;
+	width: 100%;
+}

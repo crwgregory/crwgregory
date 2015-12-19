@@ -1,0 +1,36 @@
+/*------------------------------------*\
+    ::Header
+\*------------------------------------*/
+$logo-size-break: 950px;
+
+#header-container{
+	background: black url(http://crwgregory.com/wp-content/uploads/2015/12/twinlakesshade.jpg) no-repeat fixed content-box;
+	background-position: 50% 100%; //mid-bottom
+	background-size: 100vw auto;
+	height:100vh - $footer-height;
+	min-height:$min-container-height-small;
+	@media screen and(min-width: 40em){
+		min-height: $min-container-height-large;
+	}
+
+	#main-logo-container{
+		@media screen and #{breakpoint('retina')} and (orientation: portrait){			
+			margin-top:100px;
+		}
+		@media screen and (orientation: landscape){			
+			margin-top:0;
+		}
+		min-width:250px;
+		#main-logo{
+			//@extend #main-logo-container;
+			height:240px;
+			background-image:url(http://crwgregory.com/wp-content/uploads/2015/12/hexegon2.png);
+			background-repeat: no-repeat;
+			//background-size: auto 80%;
+			background-position:center;
+		}
+	}
+	.header-text{
+		color:white;
+	}
+}
