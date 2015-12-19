@@ -5,6 +5,10 @@
  * @since Zemplate 1.0
  */
 
+//used to version main.js and style.css Files
+$versionCSS = '1.0.1';
+$versionJS = '1.0.0';
+
 /*
  * Require any custom functions you'd like to add to this theme.
  *

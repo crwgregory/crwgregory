@@ -2870,17 +2870,21 @@ footer {
   /* line 16, sass/moons/components/_head.scss */
   #header-container #main-logo-container {
     min-width: 250px; }
-    @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (orientation: portrait) {
       /* line 16, sass/moons/components/_head.scss */
       #header-container #main-logo-container {
         margin-top: 100px; } }
-    /* line 21, sass/moons/components/_head.scss */
+    @media screen and (orientation: landscape) {
+      /* line 16, sass/moons/components/_head.scss */
+      #header-container #main-logo-container {
+        margin-top: 0; } }
+    /* line 24, sass/moons/components/_head.scss */
     #header-container #main-logo-container #main-logo {
-      height: 280px;
+      height: 240px;
       background-image: url(http://crwgregory.com/wp-content/uploads/2015/12/hexegon2.png);
       background-repeat: no-repeat;
       background-position: center; }
-  /* line 30, sass/moons/components/_head.scss */
+  /* line 33, sass/moons/components/_head.scss */
   #header-container .header-text {
     color: white; }
 
